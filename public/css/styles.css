@@ -1,0 +1,286 @@
+ /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding: 2px;
+
+      /*background-color: #f1f1f1;*/
+      /*height: 100%;*/
+
+    }
+    
+    /* Set black background color, white text and some padding */
+    
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 1px;
+      }
+      .row.content {height:auto;} 
+    }
+
+
+    /*my part..........................*/
+
+
+body{
+	background: #FAFAFA; 
+}
+
+.form-inline {
+
+	margin-top: 7px;
+
+  }
+
+
+.bmiblock{
+	float: left;
+}
+
+.resultblock{
+
+}
+
+.bmi{
+ 	  border: 2px solid #929292;
+    background-color: #bfbdbd;
+    width: 220px;
+    float: right;
+    
+    margin-left: 19px;
+    margin-top: 60px;
+    padding: 15px 5px 15px 25px;
+    font-size: 20px;
+
+    
+    border-top-left-radius: -10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: -10px;
+    -webkit-box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+    box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+
+ }
+
+
+ .bmi input{
+    width: 80%;
+    height: 25px;
+    padding:0px 5%;
+    margin-bottom: 2px;
+    border: none;
+    background-color: #fff;
+    font-family: arial;
+    font-size: 12px;
+    color: #111;
+    line-height: 40px;
+    border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+     border-bottom-left-radius: 10px;
+     border-bottom-right-radius: 10px;
+
+}
+.bmi button{
+     display: block;
+    margin: 0 auto;
+    width: 40%;
+    height: 35px;
+    
+    
+    border: none;
+    background-color: #222;
+    font-family: arial;
+    font-size: 12px;
+    color: #fff;
+    cursor: pointer;
+    border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+     border-bottom-left-radius: 10px;
+     border-bottom-right-radius: 10px;
+
+} 
+.bmi h4{
+   font-size: 1.2em; 
+   font-family:Freestyle Script;
+
+}
+
+.bmi span input{
+    width: 40%;
+    height: 40px;
+    margin-bottom: 2px;
+}
+
+.bmi button:hover{
+
+    background-color: #111;
+}
+
+
+.pe {
+    font-size: 25px; 
+    width: 220px;
+    height: 222px;
+    border: 2px solid #929292;
+    background-color: #bfbdbd;
+    margin-top: 80px;
+
+    line-height: 30px;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 2px;
+
+    float: right;
+
+
+
+
+
+
+    
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-family:Gabriola;
+    float: right;
+    margin-left: 22px;
+    -webkit-box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+   -moz-box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+     box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+    }
+
+.pe b{
+    font-size: 25px;
+}
+
+
+.pe1 {
+   font-size: 25px; 
+    width: 220px;
+    height: 260px;
+    border: 2px solid #929292;
+    background-color: #bfbdbd;
+    margin-top: 80px;
+
+    line-height: 30px;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 2px;
+
+    float: right;
+    
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-family:Gabriola;
+   
+    margin-left: 22px;
+    -webkit-box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+   -moz-box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+     box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+    }
+
+
+
+.nav-pills li:nth-of-type(1) {
+	
+	background-color: black;
+
+	}
+
+.nav-pills li:nth-of-type(1) a {
+
+	color: white;
+
+	}
+ .nav-pills li:nth-of-type(1) a:hover {
+ 	;
+  background-color: #585858;
+
+  }
+
+.nav-pills li:nth-of-type(7) {
+	background-color: black;
+	margin-top: 5px;
+	
+
+	}
+
+.nav-pills li:nth-of-type(7) a {
+	color: white;
+
+
+	}
+
+ .nav-pills li:nth-of-type(7) a:hover {
+  background-color: #585858;
+
+  }
+
+
+.nav-pills li:nth-of-type(9) {
+	background-color: black;
+	margin-top: 5px;
+	
+
+	}
+
+.nav-pills li:nth-of-type(9) a {
+	color: white;
+
+	}
+
+ .nav-pills li:nth-of-type(9) a:hover {
+  background-color: #585858;
+
+  }
+
+.nav-pills li{
+	background-color: #bfbdbd;
+
+
+	border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.nav-pills li a{
+	font-size: 14px;
+	color: black;
+}
+
+.nav-pills li{
+	width: 100%;
+	margin-top:2px; 
+}
+
+
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #222222 ;
+}
+
+
+ .inf-content{
+    border:1px solid #DDDDDD;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
+} 
+
+.snippet{
+  margin-top: 27px;
+}
+
+
